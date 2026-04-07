@@ -1,0 +1,83 @@
+* {
+    background-color: rgb(172, 165, 158);
+    /* font-family: Arial, sans-serif; */
+}
+
+.list-of-animals ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.list-of-animals li {
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-of-animals li:hover {
+    background-color: rgb(94, 75, 50);
+}
+
+
+.animal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.animal-info img {
+    border-radius: 60%;
+    border: 20px solid bisque;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.job-info, .age-info, .skills-info {
+    padding: 0;
+}
+
+
+
+.job-info {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.age-info {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.skills-info {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin: 0;
+    color: gray;
+    
+
+}
+.age-value {
+    color: black;
+}
+.skills-info li {
+    color: black;
+}
