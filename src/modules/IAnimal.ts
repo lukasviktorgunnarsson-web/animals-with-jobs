@@ -2,9 +2,9 @@ export interface Animal {
     name: string;
     kindOfAnimal: string;
     job: string;
-    skills?: string[];
+    skills?: string;
     birthYear: string;
     imageUrl: URL;
-    employmentStartDate?: string;
+    employmentStartDate: string;
     employmentEndDate?: string;
 }
